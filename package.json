@@ -3,6 +3,7 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://lachlanspringfield.github.io/aida-funding-assistant-site",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -84,6 +85,7 @@
     "tailwindcss": "^3.4.11",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "gh-pages": "^6.0.0"
   }
 }

@@ -21,7 +21,7 @@ export function CTASection() {
           </h2>
           
           <p className="text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
-            Join the growing number of aged care facilities using AIDA to improve their clinical documentation, 
+            Join the growing number of aged care facilities using Vira to improve their clinical documentation, 
             compliance, and AN-ACC funding outcomes.
           </p>
 

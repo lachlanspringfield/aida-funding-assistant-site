@@ -7,7 +7,7 @@ const testimonials = [
     role: "Clinical Manager",
     facility: "Sunshine Aged Care",
     location: "Melbourne, VIC",
-    content: "AIDA has transformed our documentation process. Our AN-ACC funding increased by 28% in the first six months, and our staff feel much more confident in their clinical notes.",
+    content: "Vira has transformed our documentation process. Our AN-ACC funding increased by 28% in the first six months, and our staff feel much more confident in their clinical notes.",
     rating: 5,
     avatar: "SM"
   },
@@ -16,7 +16,7 @@ const testimonials = [
     role: "Medical Director",
     facility: "Heritage Gardens",
     location: "Sydney, NSW",
-    content: "The compliance monitoring is exceptional. We went from occasional audit concerns to achieving a perfect compliance score. AIDA catches issues before they become problems.",
+    content: "The compliance monitoring is exceptional. We went from occasional audit concerns to achieving a perfect compliance score. Vira catches issues before they become problems.",
     rating: 5,
     avatar: "JC"
   },
@@ -25,7 +25,7 @@ const testimonials = [
     role: "Facility Manager",
     facility: "Coastal Care Centre",
     location: "Brisbane, QLD",
-    content: "Our staff love AIDA's real-time suggestions. Documentation time has decreased by 35%, allowing more time for direct resident care. It's been a game-changer for us.",
+    content: "Our staff love Vira's real-time suggestions. Documentation time has decreased by 35%, allowing more time for direct resident care. It's been a game-changer for us.",
     rating: 5,
     avatar: "MR"
   }
@@ -34,7 +34,7 @@ const testimonials = [
 const stats = [
   {
     value: "50+",
-    label: "Facilities using AIDA",
+    label: "Facilities using Vira",
     description: "Across Australia"
   },
   {
@@ -64,7 +64,7 @@ export function TestimonialsSection() {
             Trusted by Aged Care Leaders
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            See how AIDA is helping facilities across Australia improve their documentation and funding outcomes
+            See how Vira is helping facilities across Australia improve their documentation and funding outcomes
           </p>
         </div>
 
@@ -130,10 +130,10 @@ export function TestimonialsSection() {
         {/* Bottom CTA */}
         <div className="text-center mt-16 p-8 bg-card rounded-2xl border border-border">
           <h3 className="text-2xl font-bold mb-4">
-            Join 50+ facilities already using AIDA
+            Join 50+ facilities already using Vira
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Don't let poor documentation hold back your funding potential. See how AIDA can transform your facility's outcomes.
+            Don't let poor documentation hold back your funding potential. See how Vira can transform your facility's outcomes.
           </p>
           <button className="px-8 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-accent-hover transition-colors">
             Start Your Free Trial

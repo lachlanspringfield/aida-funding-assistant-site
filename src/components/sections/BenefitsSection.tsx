@@ -56,7 +56,7 @@ export function BenefitsSection() {
             Measurable Results for Your Facility
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            AIDA delivers concrete improvements to your bottom line, compliance scores, and staff satisfaction
+            Vira delivers concrete improvements to your bottom line, compliance scores, and staff satisfaction
           </p>
         </div>
 

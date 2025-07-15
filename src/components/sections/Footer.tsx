@@ -33,7 +33,7 @@ export function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary">
                 <Brain className="h-5 w-5 text-white" />
               </div>
-              <span className="text-2xl font-bold">AIDA</span>
+              <span className="text-2xl font-bold">Vira</span>
             </div>
             
             <p className="text-background/80 leading-relaxed max-w-md">
@@ -45,11 +45,11 @@ export function Footer() {
             <div className="space-y-2 text-background/80">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>hello@aida-health.com.au</span>
+                <span>hello@vira.au</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>1800 AIDA (2432)</span>
+                <span>1800 VIRA (8472)</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
@@ -114,7 +114,7 @@ export function Footer() {
         <div className="py-8 border-t border-background/20">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-background/60 text-sm">
-              © 2024 AIDA Health Technologies Pty Ltd. All rights reserved.
+              © 2024 Vira Health Technologies Pty Ltd. All rights reserved.
             </div>
             
             <div className="flex items-center space-x-6 text-background/60 text-sm">

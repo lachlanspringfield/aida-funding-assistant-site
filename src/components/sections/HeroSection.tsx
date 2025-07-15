@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle } from "lucide-react";
-import aidaMockup from "@/assets/aida-mockup-hero.jpg";
+import viraMockup from "@/assets/vira-mockup-hero.jpg";
 
 export function HeroSection() {
   return (
@@ -61,7 +61,7 @@ export function HeroSection() {
           <div className="relative lg:pl-8">
             <div className="relative animate-float">
               <img 
-                src={aidaMockup} 
+                src={viraMockup} 
                 alt="Vira AI Assistant Interface" 
                 className="w-full rounded-2xl shadow-2xl border border-border"
               />

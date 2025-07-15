@@ -6,7 +6,7 @@ const steps = [
   {
     icon: FileText,
     title: "1. Connect",
-    description: "AIDA integrates seamlessly with your existing documentation platforms like Leecare and iCare.",
+    description: "Vira integrates seamlessly with your existing documentation platforms like Leecare and iCare.",
     color: "text-primary"
   },
   {
@@ -30,7 +30,7 @@ export function HowItWorksSection() {
         {/* Section header */}
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-3xl lg:text-5xl font-bold">
-            How AIDA Works
+            How Vira Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Three simple steps to transform your aged care documentation and funding outcomes
@@ -41,7 +41,7 @@ export function HowItWorksSection() {
         <div className="mb-16 flex justify-center">
           <img 
             src={howItWorksImage} 
-            alt="AIDA workflow visualization" 
+            alt="Vira workflow visualization" 
             className="max-w-lg w-full"
           />
         </div>
@@ -75,7 +75,7 @@ export function HowItWorksSection() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-lg text-muted-foreground mb-6">
-            Ready to see AIDA in action at your facility?
+            Ready to see Vira in action at your facility?
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary-hover transition-colors">

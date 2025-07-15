@@ -2,64 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-/* AIDA SaaS Design System - Professional Healthcare/Aged Care Theme */
+/* Vira SaaS Design System - Clinical Healthcare Platform */
 
 @layer base {
   :root {
-    /* Core brand colors - Professional healthcare blues with warmth */
-    --background: 0 0% 100%;
-    --foreground: 215 25% 15%;
+    /* Core brand colors - Vira palette */
+    --background: 210 20% 98%;
+    --foreground: 204 41% 21%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card: 210 20% 98%;
+    --card-foreground: 204 41% 21%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover: 210 20% 98%;
+    --popover-foreground: 204 41% 21%;
 
-    /* Primary: Professional healthcare blue */
-    --primary: 210 100% 40%;
-    --primary-foreground: 0 0% 100%;
-    --primary-hover: 210 100% 35%;
+    /* Primary: Midnight Teal */
+    --primary: 204 41% 21%;
+    --primary-foreground: 210 20% 98%;
+    --primary-hover: 204 41% 18%;
 
-    /* Secondary: Warm professional gray */
-    --secondary: 215 15% 96%;
-    --secondary-foreground: 215 25% 25%;
+    /* Secondary: Steel Blue-Grey */
+    --secondary: 200 18% 75%;
+    --secondary-foreground: 204 41% 21%;
 
     /* Muted: Subtle backgrounds */
-    --muted: 215 15% 96%;
-    --muted-foreground: 215 15% 50%;
+    --muted: 200 18% 75%;
+    --muted-foreground: 204 30% 45%;
 
-    /* Accent: Success/highlight color */
-    --accent: 142 76% 36%;
-    --accent-foreground: 0 0% 100%;
-    --accent-hover: 142 76% 32%;
+    /* Accent: Eucalyptus Green for success */
+    --accent: 167 42% 39%;
+    --accent-foreground: 210 20% 98%;
+    --accent-hover: 167 42% 35%;
 
-    /* Warning/Important */
-    --warning: 35 91% 62%;
-    --warning-foreground: 0 0% 100%;
+    /* Warning: Warm Coral for action */
+    --warning: 13 86% 59%;
+    --warning-foreground: 210 20% 98%;
 
     /* Error/Destructive */
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 210 20% 98%;
 
     /* Borders and inputs */
-    --border: 215 15% 88%;
-    --input: 215 15% 88%;
-    --ring: 210 100% 40%;
+    --border: 200 18% 85%;
+    --input: 200 18% 85%;
+    --ring: 204 41% 21%;
 
     /* Design system tokens */
     --radius: 0.75rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(210 100% 40%), hsl(195 100% 45%));
-    --gradient-secondary: linear-gradient(135deg, hsl(215 15% 96%), hsl(0 0% 100%));
-    --gradient-hero: linear-gradient(135deg, hsl(210 100% 40% / 0.1), hsl(195 100% 45% / 0.05));
+    --gradient-primary: linear-gradient(135deg, hsl(204 41% 21%), hsl(167 42% 39%));
+    --gradient-secondary: linear-gradient(135deg, hsl(210 20% 98%), hsl(200 18% 95%));
+    --gradient-hero: linear-gradient(135deg, hsl(204 41% 21% / 0.1), hsl(167 42% 39% / 0.05));
 
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(215 25% 15% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(215 25% 15% / 0.1), 0 2px 4px -1px hsl(215 25% 15% / 0.06);
-    --shadow-lg: 0 10px 15px -3px hsl(215 25% 15% / 0.1), 0 4px 6px -2px hsl(215 25% 15% / 0.05);
-    --shadow-brand: 0 10px 25px -5px hsl(210 100% 40% / 0.25);
+    --shadow-sm: 0 1px 2px 0 hsl(204 41% 21% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(204 41% 21% / 0.1), 0 2px 4px -1px hsl(204 41% 21% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(204 41% 21% / 0.1), 0 4px 6px -2px hsl(204 41% 21% / 0.05);
+    --shadow-brand: 0 10px 25px -5px hsl(204 41% 21% / 0.25);
 
     /* Typography scale */
     --font-size-xs: 0.75rem;

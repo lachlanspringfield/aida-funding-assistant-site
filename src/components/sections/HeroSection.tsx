@@ -13,15 +13,14 @@ export function HeroSection() {
           {/* Left content */}
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Smarter Notes.{" "}
+              <h1 className="text-4xl lg:text-6xl font-heading font-semibold leading-tight">
+                Funding starts with{" "}
                 <span className="bg-gradient-primary bg-clip-text text-transparent">
-                  Better Funding.
+                  better notes.
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                AIDA is the AI-powered documentation assistant that helps Residential Aged Care providers 
-                improve clinical notes, ensure compliance, and unlock higher AN-ACC funding.
+                Vira helps aged care nurses write smarter, more compliant documentation—so facilities capture the funding they deserve.
               </p>
             </div>
 
@@ -42,7 +41,7 @@ export function HeroSection() {
             {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="xl" className="group">
-                See AIDA in Action
+                See Vira in Action
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline-primary" size="xl">
@@ -63,7 +62,7 @@ export function HeroSection() {
             <div className="relative animate-float">
               <img 
                 src={aidaMockup} 
-                alt="AIDA AI Assistant Interface" 
+                alt="Vira AI Assistant Interface" 
                 className="w-full rounded-2xl shadow-2xl border border-border"
               />
               

@@ -14,25 +14,9 @@ export function Header() {
             <span className="text-xl font-bold">AIDA</span>
           </div>
 
-          {/* Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <a href="#how-it-works" className="text-foreground/80 hover:text-foreground transition-colors">
-              How it Works
-            </a>
-            <a href="#benefits" className="text-foreground/80 hover:text-foreground transition-colors">
-              Benefits
-            </a>
-            <a href="#testimonials" className="text-foreground/80 hover:text-foreground transition-colors">
-              Testimonials
-            </a>
-            <a href="#contact" className="text-foreground/80 hover:text-foreground transition-colors">
-              Contact
-            </a>
-          </nav>
-
-          {/* CTA Button */}
-          <Button variant="hero" size="lg">
-            Book a Demo
+          {/* Login Button */}
+          <Button variant="outline" size="lg">
+            Login
           </Button>
         </div>
       </div>

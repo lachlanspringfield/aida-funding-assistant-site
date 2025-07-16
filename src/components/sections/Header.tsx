@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Brain } from "lucide-react";
+import logoIcon from "@/assets/vira-logo-icon.png";
 
 export function Header() {
   return (
@@ -8,9 +8,19 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary">
-              <Brain className="h-5 w-5 text-white" />
-            </div>
+            <div 
+              className="h-8 w-8 bg-gradient-primary rounded-lg"
+              style={{
+                maskImage: `url(${logoIcon})`,
+                maskSize: 'contain',
+                maskRepeat: 'no-repeat',
+                maskPosition: 'center',
+                WebkitMaskImage: `url(${logoIcon})`,
+                WebkitMaskSize: 'contain',
+                WebkitMaskRepeat: 'no-repeat',
+                WebkitMaskPosition: 'center'
+              }}
+            />
             <span className="text-xl font-bold">Vira</span>
           </div>
 

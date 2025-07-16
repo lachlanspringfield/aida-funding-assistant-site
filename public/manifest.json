@@ -1,0 +1,31 @@
+{
+  "name": "Vira - AI Documentation Assistant",
+  "short_name": "Vira",
+  "description": "AI Documentation Assistant for Aged Care",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "/lovable-uploads/f53a2981-57b5-43c0-bdb5-f76bda4c5bbb.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/lovable-uploads/a5f60604-5fe5-49be-81b2-91f04fc04074.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/lovable-uploads/451428be-a9de-4aeb-a314-4840cde7f1b5.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/lovable-uploads/6439ac67-f265-4513-8bd6-f58003405051.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

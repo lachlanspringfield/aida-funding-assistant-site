@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import targetIcon from "@/assets/vira-target-icon.png";
 
 export function Header() {
   return (
@@ -8,18 +7,10 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div 
-              className="h-8 w-8 bg-gradient-primary"
-              style={{
-                maskImage: `url(${targetIcon})`,
-                maskSize: 'contain',
-                maskRepeat: 'no-repeat',
-                maskPosition: 'center',
-                WebkitMaskImage: `url(${targetIcon})`,
-                WebkitMaskSize: 'contain',
-                WebkitMaskRepeat: 'no-repeat',
-                WebkitMaskPosition: 'center'
-              }}
+            <img 
+              src="/lovable-uploads/6439ac67-f265-4513-8bd6-f58003405051.png" 
+              alt="Vira Logo" 
+              className="h-8 w-8 object-contain"
             />
             <span className="text-xl font-bold">Vira</span>
           </div>
